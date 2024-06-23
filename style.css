@@ -1,0 +1,199 @@
+/*FontFamily*/
+@font-face {
+    font-family: "amanoalzada";
+    src: url(PlaywriteUSModern-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "amanoalzada";
+    font-size: 15px;
+}
+
+/*estilos de la barra de navegacion*/
+body{
+    background-color: antiquewhite;
+}
+
+.header{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 85px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.2);
+
+}
+
+.header .nav-links li a:hover{
+    color: #DEE328;
+
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: aqua;
+    padding: 9px 25px;
+    background-color: wheat;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease0s;
+}
+
+.header .btn button:hover{
+    background-color: burlywood;
+    color: brown;
+    transform: scale(1.1);
+}
+
+/* Encabezados*/
+
+h1 {
+    color: midnightblue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    image-orientation: from-image;
+}
+
+p {
+    font-family: "amanoalzada";
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    color: darkmagenta;
+    
+}
+footer ul {
+    list-style-type: none;
+}
+
+.argumento{
+    font-family: "amanoalzada";
+}
+
+.estilobridgerton{
+    color: rgb(114, 116, 16);
+}
+
+.netflix{
+    color: red;
+    font-style: oblique;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.fondoprincipal{
+    width: 950px;
+    height: 550px;
+}
+
+.estilobridgerton{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+/*Pagina LIBROS*/
+
+.cuerpo img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.Libros li{
+    list-style: inside;
+}
+
+.cuerpo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*logo instagram*/
+
+.logoinsta{
+    width: 100px;
+    height: 100px;
+}
+
+/*logo netflix*/
+
+.logonetflix{
+    width: 100px;
+    height: 100px;
+}
+
+h3{
+    color: green;
+}
+
+.logoyoutube{
+    width: 200px;
+    height: 200px;
+}
+
+.enlaces{
+    display: flex;
+}
+
+/*pagina temporadas*/
+
+.temporadasdelaserie {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax (200px,1fr));
+    gap: 10px;
+}
+.row row-cols-2 img{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 600px){
+    .temporadasdelaserie{
+        grid-template-columns: 1fr;
+    }
+}
