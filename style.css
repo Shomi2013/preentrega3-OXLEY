@@ -29,7 +29,7 @@ body{
 .header .logo{
     cursor: pointer;
 }
-.header .logo img{
+.header .logo .img{
     height: 85px;
     width: auto;
     transition: all 0.3s;
@@ -39,32 +39,32 @@ body{
     list-style: none;
 }
 
-.header .nav-links li {
+.header .nav-links .li {
     display: inline-block;
     padding: 0 20px;
 }
 
-.header .nav-links a{
+.header .nav-links .a{
     font-size: 700;
     color: darkgreen;
     text-decoration: none;
 }
 
-.header .nav-links li:hover{
+.header .nav-links .li:hover{
     transform: scale(1.2);
 
 }
 
-.header .nav-links li a:hover{
+.header .nav-links .li .a:hover{
     color: #DEE328;
 
 }
 
-.header .logo img:hover{
+.header .logo .img:hover{
     transform: scale(1.2);
 }
 
-.header .btn button{
+.header .btn .button{
     font-weight: 700;
     color: aqua;
     padding: 9px 25px;
@@ -75,7 +75,7 @@ body{
     transition: all 0.3s ease0s;
 }
 
-.header .btn button:hover{
+.header .btn .button:hover{
     background-color: burlywood;
     color: brown;
     transform: scale(1.1);
@@ -83,28 +83,28 @@ body{
 
 /* Encabezados*/
 
-h1 {
+.h1 {
     color: midnightblue;
     text-decoration: underline;
     text-align: center;
 }
 
-img{
+.img{
     width: 50%;
     image-orientation: from-image;
 }
 
-p {
+.p {
     font-family: "amanoalzada";
     font-size: 20px;
     text-align: center;
 }
 
-footer{
+.footer{
     color: darkmagenta;
     
 }
-footer ul {
+.footer .ul {
     list-style-type: none;
 }
 
@@ -137,13 +137,13 @@ footer ul {
 
 /*Pagina LIBROS*/
 
-.cuerpo img{
+.cuerpo .img{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
 }
-.Libros li{
+.Libros .li{
     list-style: inside;
 }
 
@@ -167,7 +167,7 @@ footer ul {
     height: 100px;
 }
 
-h3{
+.h3{
     color: green;
 }
 
@@ -188,7 +188,7 @@ h3{
     grid-template-columns: repeat(auto-fit, minmax (200px,1fr));
     gap: 10px;
 }
-.row row-cols-2 img{
+.row .row-cols-2 .img{
     width: 100%;
     height: auto;
 }
