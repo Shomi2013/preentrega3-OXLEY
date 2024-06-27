@@ -1,70 +1,80 @@
 /*FontFamily*/
 @font-face {
-    font-family: "amanoalzada";
-    src: url(PlaywriteUSModern-Regular.ttf);
+    font-family: "Montserrat", sans-serif;
+    src: url( {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    })
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "amanoalzada";
-    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
 }
 
 /*estilos de la barra de navegacion*/
-body{
-    background-color: antiquewhite;
-}
-
 .header{
-    background-color: beige;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    height: 105px;
     padding: 5px 10%;
 }
 
-.header .logo{
+.header logo{
     cursor: pointer;
 }
-.header .logo .img{
-    height: 85px;
+.header .logo img{
+    height: 55px;
     width: auto;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 .header .nav-links{
     list-style: none;
 }
 
-.header .nav-links .li {
+.header .nav-links li {
     display: inline-block;
     padding: 0 20px;
 }
 
-.header .nav-links .a{
+.header .nav-links a{
     font-size: 700;
     color: darkgreen;
     text-decoration: none;
 }
 
-.header .nav-links .li:hover{
-    transform: scale(1.2);
-
-}
-
-.header .nav-links .li .a:hover{
-    color: #DEE328;
-
-}
-
-.header .logo .img:hover{
+.header .nav-links li:hover{
     transform: scale(1.2);
 }
 
-.header .btn .button{
+.nav-links li:hover{
+    transform: scale(1.2);
+}
+
+.nav-links{
+    display: flex;
+    padding: 0 20px;
+    background-color: antiquewhite;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header .nav-links li a:hover{
+    color: #e328ba;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .btn button{
     font-weight: 700;
     color: aqua;
     padding: 9px 25px;
@@ -75,19 +85,18 @@ body{
     transition: all 0.3s ease0s;
 }
 
-.header .btn .button:hover{
+.header .btn button:hover{
     background-color: burlywood;
     color: brown;
     transform: scale(1.1);
 }
 
-/* Encabezados*/
-
-.h1 {
-    color: midnightblue;
-    text-decoration: underline;
-    text-align: center;
+.estilobridgerton{
+    background-color: bisque;
+    color: rgb(114, 116, 16);
 }
+
+/* Encabezados pagina principal*/
 
 .img{
     width: 50%;
@@ -95,7 +104,7 @@ body{
 }
 
 .p {
-    font-family: "amanoalzada";
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -108,20 +117,27 @@ body{
     list-style-type: none;
 }
 
+.enlacesfooter{
+    padding: 50px;
+    background-color: rgb(207, 224, 224);
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.main{
+    display: flex;
+    padding: 20px;
+}
+
+.spotify{
+    background-color: #98ceac;
+    padding: 20px;
+}
+
 .argumento{
-    font-family: "amanoalzada";
+    font-family: "Montserrat", sans-serif;
 }
 
-.estilobridgerton{
-    color: rgb(114, 116, 16);
-}
-
-.netflix{
-    color: red;
-    font-style: oblique;
-    font-size: 150%;
-    font-weight: bold;
-}
 
 .fondoprincipal{
     width: 950px;
@@ -137,34 +153,36 @@ body{
 
 /*Pagina LIBROS*/
 
-.cuerpo .img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
+.librostitulo{
+    text-align: center;
 }
-.Libros .li{
-    list-style: inside;
+.bodylibros{
+    background-color: antiquewhite;
 }
 
-.cuerpo{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+/*pagina contacto*/
+
+.paginacontacto{
+    background-color: antiquewhite;
+}
+
+.titulocontacto{
+    color: #e328ba;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*logo instagram*/
 
 .logoinsta{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 /*logo netflix*/
 
-.logonetflix{
-    width: 100px;
-    height: 100px;
+.netflixlogo{
+    width: 50px;
+    height: 50px;
 }
 
 .h3{
@@ -172,28 +190,156 @@ body{
 }
 
 .logoyoutube{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 50px;
 }
 
 .enlaces{
     display: flex;
 }
 
+.argumento{
+    background-color: antiquewhite
+}
+
 /*pagina temporadas*/
+
+.bodytemporadas{
+    background-color: antiquewhite;
+}
+
+.subtitulotemporadas{
+    color: blueviolet;
+    background-color: antiquewhite;
+    text-align: center;
+    text-decoration: underline;
+}
 
 .temporadasdelaserie {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax (200px,1fr));
     gap: 10px;
+    background-color: antiquewhite;
+    text-align: center;
 }
 .row .row-cols-2 .img{
     width: 100%;
     height: auto;
 }
-@media (max-width: 600px){
-    .temporadasdelaserie{
-        grid-template-columns: 1fr;
-    }
+
+.navtemporadas{
+    background-color: antiquewhite;
+    text-align: center;
 }
+
+.titulotemporadas{
+    color: #e328ba;
+    text-align: center;
+    text-decoration: underline;
+    margin: 60px;
+    padding: 60px;
+    box-sizing: border-box;
+    background-color: rgb(241, 219, 190);
+    font-family: "Montserrat", sans-serif;
+}
+
+.temporada1 {
+    width: 350px;
+    height: 180px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.temporada2{
+    width: 250px;
+    height: 320px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.temporada3{
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.queencharlote{
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/*imagenes Personajes*/
+
+.logolady{
+    width: 250px;
+    height: 250px;
+}
+
+.logoladydanbury{
+    width: 250px;
+    height: 250px;
+}
+.logoreina{
+    width: 200px;
+    height: 250px;
+}
+.logoantony{
+    width: 220px;
+    height: 250px;
+}
+.logopen{
+    width: 220px;
+    height: 250px;
+}
+.logoeloise{
+    width: 200px;
+    height: 200px;
+}
+.logodaphne{
+    width: 200px;
+    height: 200px;
+}
+.logosimon{
+    width: 200px;
+    height: 200px;
+}
+.logokat{
+    width: 150px;
+    height: 200px;
+}
+.logomarina{
+    width: 200px;
+    height: 200px;
+}
+
+.titulopersonajes{
+    color: #e328ba;
+    text-align: center;
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
+
+/*Media queri para Mobile pagina personajes y libros*/
+
+@media only screen and (max-witdh: 500px) {
+    .bodypersonajes {
+        grid-template-columns: 1 100px;
+        grid-template-rows: repeat(3 100px);
+        background-color: #98ceac; 
+        
+        }
+    .container  {
+        grid-template-columns: 1 100px;
+        grid-template-rows: repeat(6 100px);
+        background-color: #98ceac;
+    }  
+    
+    }
+
+
+
+
