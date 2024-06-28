@@ -17,6 +17,51 @@
     font-size: 20px;
 }
 
+/*Media queri para Mobile pagina personajes y libros*/
+
+@media only screen and (max-width: 500px) {
+    .bodypersonajes {
+        grid-template-columns: 1 100px;
+        grid-template-rows: repeat(3 100px);
+        background-color: #f3e7f5;
+        align-items: center;
+        }
+    .titulopersonajes{
+        text-align: center;
+    }
+    .header{
+        align-items: center;
+    }
+    .librostitulo{
+        text-align: center;
+    }
+    .libros{
+        width: 200px;
+        height: 100px;
+    }
+    .bodylibros{
+        justify-content: center;
+    }
+    .navlibros{
+        justify-content: center;
+    }
+    .container{
+        grid-template-columns: 1 100px;
+        grid-template-rows: repeat(6 100px);
+        background-color: #f3e7f5;
+        align-items: center;
+    }  
+    .cajapersonajes{
+        grid-template-columns: 1 100px;
+        grid-template-rows: repeat(6 100px);
+    }
+    .logolady{
+        width: 50px;
+        height: 50px;
+    }
+    }
+
+
 /*estilos de la barra de navegacion*/
 .header{
     display: flex;
@@ -323,22 +368,6 @@
     background-color: antiquewhite;
 }
 
-/*Media queri para Mobile pagina personajes y libros*/
-
-@media only screen and (max-witdh: 500px) {
-    .bodypersonajes {
-        grid-template-columns: 1 100px;
-        grid-template-rows: repeat(3 100px);
-        background-color: #98ceac; 
-        
-        }
-    .container  {
-        grid-template-columns: 1 100px;
-        grid-template-rows: repeat(6 100px);
-        background-color: #98ceac;
-    }  
-    
-    }
 
 
 
