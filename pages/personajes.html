@@ -5,83 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personajes</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../SCSS/styles.css">
 </head>
 
 
 <header class="header">
-    <nav>
-        <ul class="nav-links">
-            <li> <a href="../index.html">Main</a></li>
-            <li> <a href="../pages/temporadas.html">Temporadas</a></li>
-            <li> <a href="../pages/libros.html">Libros</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">Main</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/temporadas.html">Temporadas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/libros.html">Libros</a>
+            </li>
+            </ul>
+        </div>
+        </div>
     </nav>
 </header>
 <body class="bodypersonajes">
-    <h1 class="titulopersonajes" >Personajes Principales</h1>
-<section class="container">
-    <div class="container text-center">
-        <div id="Cajapersonajes" class="row row-cols-1 row-cols-lg-5 g-2 g-lg-3">
+    <h1 class="titulopersonajes">Personajes Principales</h1>
+    <section class="container">
+        <div id="cajapersonajes" class="row row-cols-1 row-cols-lg-5 g-2 g-lg-3">
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="p-3">Lady Whistledown</div>
                 <img class="logolady" src="../assets/ladywistheldawn.jpg" alt="ladywistheldawn">
             </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3">Lady Danbury</div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="p-3">Lady Danbury</div>
                 <img class="logoladydanbury" src="../assets/ladydanbury.png" alt="ladydanbury">
             </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3">Reina Charlotte</div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="p-3">Reina Charlotte</div>
                 <img class="logoreina" src="../assets/queencharlote.jpg" alt="queencharlote">
             </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3">Anthony Bridgerton</div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="p-3">Anthony Bridgerton</div>
                 <img class="logoantony" src="../assets/antonybrid.jpg" alt="antonybrid">
             </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3">Penelope Featherington</div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="p-3">Penelope Featherington</div>
                 <img class="logopen" src="../assets/penelope.jpg" alt="penelope">
             </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3"> Eloise Bridgerton</div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="p-3">Eloise Bridgerton</div>
                 <img class="logoeloise" src="../assets/eloise.jpg" alt="eloise">
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3">Daphne Bridgerton</div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="p-3">Daphne Bridgerton</div>
                 <img class="logodaphne" src="../assets/daphne.jpg" alt="daphne">
             </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3">Simon Basset</div>
-                <img class="logosimon" src="../assets/simon.jpg" alt="simon">
-        </div>
             <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3">Katherine Sharma</div>
+                <div class="p-3">Simon Basset</div>
+                <img class="logosimon" src="../assets/simon.jpg" alt="simon">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="p-3">Katherine Sharma</div>
                 <img class="logokat" src="../assets/katerine.jpg" alt="katerine">
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3">Marina Thompson</div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="p-3">Marina Thompson</div>
                 <img class="logomarina" src="../assets/marina.webp" alt="marina">
+            </div>
         </div>
-        </div>
-    </div>
-</section>
+    </section>
 </body>
+
 <footer>
     <div class="enlacesfooter">
-            <a href="https://www.netflix.com/ar/" target="_blank">
+        <ul class="footerlista">
+            <li><a href="https://www.netflix.com/ar/" target="_blank">
                 <div>
                     <img class="netflixlogo"src="../assets/netlifxlogo.jpg" alt="netflixlogo"></a> <br>
                 </div>
-    
+            </li>
+            <li>
             <a href="https://www.instagram.com/bridgertonnetflix/" target="_blank">
                 <div >
                     <img class="logoinsta" src="../assets/instagramlogo.png" alt="logoinsta"></a> 
-                </div>    
+                </div>
+            </li>
+            <li>
             <div>
                 <a href="https://www.youtube.com/watch?v=Hge3Tv5zVMI">
                     <img class="logoyoutube"src="../assets/logoyoutube.webp" target="_blank" alt="logoyoutube"></a>
                 </div>
+            </li>
+        </ul>
     </div>
 </footer>
 

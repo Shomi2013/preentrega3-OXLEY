@@ -1,7 +1,7 @@
 /*FontFamily*/
 @font-face {
     font-family: "Montserrat", sans-serif;
-    src: url( {
+    src: url({
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -19,7 +19,7 @@
 
 /*Media queri para Mobile pagina personajes y libros*/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px){
     .bodypersonajes {
         grid-template-columns: 1 100px;
         grid-template-rows: repeat(3 100px);
@@ -66,10 +66,6 @@
         text-align: center;
         font-size: larger;
     }
-    }
-
-
-/*estilos de la barra de navegacion*/
 .header{
     display: flex;
     justify-content: space-between;
@@ -97,9 +93,9 @@
 }
 
 .header .nav-links a{
-    font-size: 700;
-    color: darkgreen;
-    text-decoration: none;
+        font-size: 700;
+        color: darkgreen;
+        text-decoration: none;
 }
 
 .header .nav-links li:hover{
@@ -119,7 +115,11 @@
 }
 
 .header .nav-links li a:hover{
-    color: #e328ba;
+    display: flex;
+    padding: 0 20px;
+    background-color: antiquewhite;
+    list-style: none;
+    justify-content: space-between;
 }
 
 .header .logo img:hover{
@@ -374,8 +374,3 @@
     text-decoration: underline;
     background-color: antiquewhite;
 }
-
-
-
-
-

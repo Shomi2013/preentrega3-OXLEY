@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.header .navbar navbar-expand-lg bg-body-tertiary {
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+}
+.header .navbar navbar-expand-lg bg-body-tertiary .btn btn-outline-success {
+  color: #6c1baf;
+}
+.header .logo {
+  margin-right: auto;
+}
+.header .logo img {
+  height: 45px;
+  width: auto;
+  margin: auto;
+}
+.header .logo img:hover {
+  transform: scale(2, 2);
+  transition: all 3s;
+  opacity: 0.1;
+}
+
+.estilobridgerton {
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+  position: relative;
+  display: grid;
+  justify-content: left;
+  align-items: center;
+}
+.estilobridgerton .textobri {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 150%;
+  text-align: center;
+}
+.estilobridgerton .fondoprincipal {
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
+  transition: all 3s;
+  align-items: center;
+}
+.estilobridgerton .fondoprincipal:hover {
+  width: 100%;
+  height: auto;
+}
+
+.argumento1 {
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+  font-size: 150%;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(197, 33, 202);
+}
+.argumento1 h2 {
+  color: rgb(113, 7, 184);
+  text-decoration: underline;
+}
+
+.spotify {
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+}
+.spotify h3 {
+  color: rgb(43, 185, 114);
+}
+
+.enlacesfooter {
+  position: relative;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+}
+.enlacesfooter .footerlista {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.enlacesfooter .footerlista .netflixlogo {
+  width: 50px;
+  height: 50px;
+}
+.enlacesfooter .footerlista .netflixlogo:hover {
+  transform: scale(2, 2);
+  transition: all 3s;
+}
+.enlacesfooter .footerlista .logoinsta {
+  width: 50px;
+  height: 50px;
+}
+.enlacesfooter .footerlista .logoinsta:hover {
+  transform: scale(2, 2);
+  transition: all 3s;
+}
+.enlacesfooter .footerlista .logoyoutube {
+  width: 100px;
+  height: 50px;
+}
+.enlacesfooter .footerlista .logoyoutube:hover {
+  transform: scale(2, 2);
+  transition: all 3s;
+}
+
+.paginacontacto {
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+}
+.paginacontacto .titulocontacto {
+  color: #6c1baf;
+}
+.paginacontacto .titulocontacto:hover {
+  color: #d6bfe9;
+  transition: all 3s;
+}
+
+@keyframes titulolibro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.bodylibros {
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+}
+.bodylibros .librostitulo {
+  color: #6c1baf;
+  animation-name: titulolibro;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.bodylibros .libros {
+  border-radius: 30px;
+  width: 100%;
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+}
+.bodylibros .libros:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+.bodylibros .parrafolibros {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*temporadas*/
+.bodytemporadas {
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+}
+.bodytemporadas .titulotemporadas {
+  color: #e328ba;
+  text-align: center;
+  text-decoration: underline;
+}
+.bodytemporadas .titulotemporadas p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+.bodytemporadas .subtitulotemporadas {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #e328ba;
+  text-align: center;
+}
+.bodytemporadas .temporadasdelaserie .temporada1 {
+  width: 350px;
+  height: 180px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.bodytemporadas .temporada2 {
+  width: 250px;
+  height: 320px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.bodytemporadas .temporada3 {
+  width: 250px;
+  height: 300px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.bodytemporadas .queencharlote {
+  width: 250px;
+  height: 300px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/*responsive personajes y libros*/
+@media only screen and (max-width: 500px) {
+  .bodypersonajes {
+    grid-template-columns: 1 100px;
+    grid-template-rows: repeat(3 100px);
+    background-color: #f3e7f5;
+    align-items: center;
+  }
+  .titulopersonajes {
+    text-align: center;
+  }
+  .header {
+    align-items: center;
+  }
+  .librostitulo {
+    text-align: center;
+  }
+  .libros {
+    width: 200px;
+    height: 100px;
+  }
+  .bodylibros {
+    justify-content: center;
+  }
+  .navlibros {
+    justify-content: center;
+  }
+  .container {
+    grid-template-columns: 1 100px;
+    grid-template-rows: repeat(6 100px);
+    background-color: #f3e7f5;
+    align-items: center;
+  }
+  .cajapersonajes {
+    grid-template-columns: 1 100px;
+    grid-template-rows: repeat(6 100px);
+  }
+  .logolady {
+    width: 50px;
+    height: 50px;
+  }
+  .fondoprincipal {
+    display: none;
+  }
+  .textobri {
+    text-align: center;
+    font-size: larger;
+  }
+}
+/*logos de personajes no pude encontrar su ruta por eso lo hice uno por uno*/
+/*imagenes Personajes*/
+.logolady {
+  width: 250px;
+  height: 250px;
+}
+
+.logoladydanbury {
+  width: 250px;
+  height: 250px;
+}
+
+.logoreina {
+  width: 200px;
+  height: 250px;
+}
+
+.logoantony {
+  width: 220px;
+  height: 250px;
+}
+
+.logopen {
+  width: 220px;
+  height: 250px;
+}
+
+.logoeloise {
+  width: 200px;
+  height: 200px;
+}
+
+.logodaphne {
+  width: 200px;
+  height: 200px;
+}
+
+.logosimon {
+  width: 200px;
+  height: 200px;
+}
+
+.logokat {
+  width: 150px;
+  height: 200px;
+}
+
+.logomarina {
+  width: 200px;
+  height: 200px;
+}
+
+.bodypersonajes {
+  background-image: linear-gradient(90deg, #FFFFC6 0%, #C6C690 35%, #d6bfe9 100%);
+}
+.bodypersonajes .titulopersonajes {
+  color: #e328ba;
+  text-align: center;
+  text-decoration: underline;
+  background-color: antiquewhite;
+}
+
+/*responsive contacto*/
+@media only screen and (max-width: 500px) {
+  .paginacontacto {
+    grid-template-columns: 1 100px;
+    grid-template-rows: repeat(3 100px);
+    background-color: #f3e7f5;
+    align-items: center;
+  }
+  .paginacontacto .header {
+    justify-content: center;
+  }
+  .paginacontacto .header .navlibros {
+    justify-content: center;
+  }
+  .paginacontacto .header .navlibros .ul .nav-links {
+    justify-content: center;
+  }
+}
+/*responsive temporadas*/
+@media only screen and (max-width: 500px) {
+  .bodytemporadas {
+    grid-template-columns: 1 100px;
+    grid-template-rows: repeat(3 100px);
+    background-color: #f3e7f5;
+    align-items: center;
+  }
+  .bodytemporadas .temporadas {
+    justify-content: center;
+  }
+  .bodytemporadas .temporadas .navlibros {
+    justify-content: center;
+  }
+  .bodytemporadas .temporadas .navlibros .ul .nav-links {
+    justify-content: center;
+  }
+  .bodytemporadas .temporadasdelaserie {
+    grid-template-columns: 1 50px;
+    grid-template-rows: repeat(3 100px);
+    background-color: #f3e7f5;
+    align-items: center;
+  }
+  .bodytemporadas .temporadasdelaserie .temporada1 {
+    width: 120%;
+    height: 70%;
+  }
+  .bodytemporadas .temporadasdelaserie .temporada2 {
+    width: 120%;
+    height: 70%;
+  }
+  .bodytemporadas .temporadasdelaserie .temporada3 {
+    width: 120%;
+    height: 70%;
+  }
+  .bodytemporadas .temporadasdelaserie .queencharlote {
+    width: 120%;
+    height: 70%;
+  }
+}
+/*responsive INDEX*/
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .header .logo {
+    margin-bottom: 2rem;
+    width: 10%;
+    height: 20%;
+    margin-left: 0px;
+  }
+  .header .menu-icon {
+    display: flex;
+  }
+  .header .nav {
+    display: flex;
+  }
+  .header .nav .nav-links {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .header .nav .nav-links .li {
+    margin: 0.5rem 0;
+  }
+  .header .btn {
+    margin-top: 1rem;
+  }
+  .header .btn .button {
+    width: 50%;
+  }
+  .header .menu-toggle:checked ~ nav .nav-links {
+    display: flex;
+  }
+}/*# sourceMappingURL=styles.css.map */

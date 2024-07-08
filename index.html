@@ -4,13 +4,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--animate css-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--css-->
-    <link rel="stylesheet" href="./style.css">
-    <!--fonts-->
+    <link rel="stylesheet" href="./SCSS/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Pagina Principal Brigderton</title>
 </head>
 
@@ -19,15 +22,28 @@
         <div class="logo">
             <img src="./assets/logo.jpg" alt="logo bridgerton">
         </div>
-        
-        <nav>
-            <ul class="nav-links">
-                <li> <a href="./pages/libros.html">Libros</a></li>
-                <li> <a href="./pages/personajes.html">Personajes</a></li>
-                <li> <a href="./pages/temporadas.html">Temporadas</a></li>
-            </ul>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./pages/temporadas.html">Temporadas</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/personajes.html">Personajes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/libros.html">Libros</a>
+                </li>
+                </ul>
+                <a href="./pages/contacto.html"
+                <button class="btn btn-outline-success" class="btn">Contacto</a></button>
+            </div>
+            </div>
         </nav>
-        <a href="./pages/contacto.html" class="btn"><button>Contacto</button></a>    
+
     </header>
 
     <main>
@@ -43,13 +59,13 @@
         <img class="fondoprincipal" src="./assets/temporada1.jpg" alt="">
     </div>
 
-    <h2>Argumento de la historia</h2>
+    <div class="argumento1"><h2>Argumento de la historia</h2>
         <section class= "argumento">
             <p>La serie está ambientada en la alta sociedad londinense durante el período Regencia inglés de principios del siglo xix. La historia se centra en dos familias, los Bridgerton y los Featherington.
             La familia Bridgerton está formada por Violet, vizcondesa viuda Bridgerton, sus cuatro hijos Anthony, Benedict, Colin y Gregory, y sus cuatro hijas Daphne, Eloise, Francesca e Hyacinth. <br>
             La familia Featherington se integra por Lady Portia Featherington, su esposo el barón Archibald Featherington y sus tres hijas, Philippa, Prudence y Penelope, y una prima lejana, Marina Thompson. <br>
             Cada temporada refleja la historia de un hermano Bridgerton:en la primera temporada la historia se basó en Daphne, mientras que la segunda temporada corresponde a Anthony; en la tercera temporada la historia se centra en Colin. <br>
-            
+    </div>
         </section>
     </main>
 
@@ -66,20 +82,25 @@
 
 <footer>
     <div class="enlacesfooter">
-            <a href="https://www.netflix.com/ar/" target="_blank">
+        <ul class="footerlista">
+            <li><a href="https://www.netflix.com/ar/" target="_blank">
                 <div>
                     <img class="netflixlogo"src="./assets/netlifxlogo.jpg" alt="netflixlogo"></a> <br>
                 </div>
-
+            </li>
+            <li>
             <a href="https://www.instagram.com/bridgertonnetflix/" target="_blank">
                 <div >
                     <img class="logoinsta" src="./assets/instagramlogo.png" alt="logoinsta"></a> 
                 </div>
-
+            </li>
+            <li>
             <div>
                 <a href="https://www.youtube.com/watch?v=Hge3Tv5zVMI">
                     <img class="logoyoutube"src="./assets/logoyoutube.webp" target="_blank" alt="logoyoutube"></a>
                 </div>
+            </li>
+        </ul>
     </div>
 </footer>
 
