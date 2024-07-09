@@ -142,7 +142,7 @@
     color: brown;
     transform: scale(1.1);
 }
-
+}
 .estilobridgerton{
     background-color: bisque;
     color: rgb(114, 116, 16);
@@ -373,4 +373,4 @@
     text-align: center;
     text-decoration: underline;
     background-color: antiquewhite;
-}
+    }

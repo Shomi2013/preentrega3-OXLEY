@@ -249,50 +249,48 @@
         }
     }
 
-/*logos de personajes no pude encontrar su ruta por eso lo hice uno por uno*/
+
 
 /*imagenes Personajes*/
 
-.logolady{
-    width: 250px;
-    height: 250px;
+/*variables*/
+$width-large: 250px;
+$width-medium: 220px;
+$width-small: 200px;
+$width-xsmall: 150px;
+
+$height-large: 250px;
+$height-medium: 200px;
+
+/*anidamiento de selectores*/
+
+.logolady,
+.logoladydanbury {
+    width: $width-large;
+    height: $height-large;
+}
+.logoreina {
+    width: $width-small;
+    height: $height-large;
 }
 
-.logoladydanbury{
-    width: 250px;
-    height: 250px;
+.logoantony,
+.logopen {
+    width: $width-medium;
+    height: $height-large;
 }
-.logoreina{
-    width: 200px;
-    height: 250px;
+
+.logoeloise,
+.logodaphne,
+.logosimon,
+.logomarina {
+    width: $width-small;
+    height: $height-medium;
 }
-.logoantony{
-    width: 220px;
-    height: 250px;
-}
-.logopen{
-    width: 220px;
-    height: 250px;
-}
-.logoeloise{
-    width: 200px;
-    height: 200px;
-}
-.logodaphne{
-    width: 200px;
-    height: 200px;
-}
-.logosimon{
-    width: 200px;
-    height: 200px;
-}
-.logokat{
-    width: 150px;
-    height: 200px;
-}
-.logomarina{
-    width: 200px;
-    height: 200px;
+
+.logokat {
+    width: $width-xsmall;
+    height: $height-medium;
 }
 
 .bodypersonajes{
